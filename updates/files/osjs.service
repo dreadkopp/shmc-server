@@ -1,0 +1,9 @@
+[Unit]
+Description=runs OS.js
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/node /SHMC/OSjs/osjs run
+
+[Install]
+WantedBy=multi-user.target
