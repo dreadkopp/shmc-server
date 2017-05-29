@@ -8,5 +8,6 @@ cp /SHMC/updates/files/viewer.js /usr/share/webapps/nextcloud/apps/richdocumente
 sudo -u http /usr/share/webapps/nextcloud/occ config:app:set "richdocuments" '"wopi_url": "https://shmc-server"'
 node /SHMC/OSjs/osjs build:package --name=default/FileManager
 node /SHMC/OSjs/osjs build:manifest
+usermod -a -G http emby
 systemctl daemon-reload
 reboot
