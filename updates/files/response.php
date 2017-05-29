@@ -254,7 +254,9 @@ class OC_Response {
 			. 'font-src \'self\' data:; '
 			. 'media-src *; ' 
 			. 'connect-src *';
+
 		header('Content-Security-Policy:' . $policy);
+		header('Content-Security-Policy:' . 'frame-ancestors \'default-src\' \'self\' \'https://shmc-server:*\'');
 
 		// Send fallback headers for installations that don't have the possibility to send
 		// custom headers on the webserver side
