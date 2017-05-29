@@ -135,7 +135,7 @@ var documentsMain = {
 			var access_token = encodeURIComponent(documentsMain.token);
 
 			// form to post the access token for WOPISrc
-			var form = '<form id="loleafletform_viewer" name="loleafletform_viewer" target="loleafletframe_viewer" action="' + urlsrc + '" method="post">' +
+			var form = '<form sandbox="allow-scripts allow-forms allow-same-origin allow-popups allow-modals" id="loleafletform_viewer" name="loleafletform_viewer" target="loleafletframe_viewer" action="' + urlsrc + '" method="post">' +
 			  '<input name="access_token" value="' + access_token + '" type="hidden"/></form>';
 
 			// iframe that contains the Collabora Online Viewer
@@ -325,11 +325,11 @@ var documentsMain = {
 			var access_token = encodeURIComponent(documentsMain.token);
 
 			// form to post the access token for WOPISrc
-			var form = '<form id="loleafletform" name="loleafletform" target="loleafletframe" action="' + urlsrc + '" method="post">' +
+			var form = '<form sandbox="allow-scripts allow-forms allow-same-origin allow-popups allow-modals" id="loleafletform" name="loleafletform" target="loleafletframe" action="' + urlsrc + '" method="post">' +
 				'<input name="access_token" value="' + access_token + '" type="hidden"/></form>';
 
 			// iframe that contains the Collabora Online
-			var frame = '<iframe sandbox="allow-scripts allow-same-origin allow-popups allow-modals" id="loleafletframe" name= "loleafletframe" allowfullscreen style="width:100%;height:100%;position:absolute;" />';
+			var frame = '<iframe sandbox="allow-scripts allow-forms allow-same-origin allow-popups allow-modals" id="loleafletframe" name= "loleafletframe" allowfullscreen style="width:100%;height:100%;position:absolute;" />';
 
 			$('#mainContainer').append(form);
 			$('#mainContainer').append(frame);
