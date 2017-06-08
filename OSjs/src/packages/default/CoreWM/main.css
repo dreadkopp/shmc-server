@@ -174,7 +174,7 @@ corewm-window-switcher > div > img {
   right : .5em;
   top : .5em !important;
   bottom : .5em;
-  width : calc(100% - 1em);
+  width : calc(100% - 1em)!important;
   height : calc(100% - 1em);
   overflow-x : hidden;
   overflow-y : auto;
@@ -194,17 +194,17 @@ corewm-window-switcher > div > img {
   right : 0;
   bottom : 0;
   overflow : hidden;
-  background : rgba(0, 0, 0, .8);
+//  background : rgba(0, 0, 0, .8);
   content : '';
 }
 
   #CoreWMApplicationMenu gui-menu-entry {
     width : 7em;
     height : 7em;
-    padding : 0.333em;
+    padding : 1em;
     display : inline-block;
     overflow : hidden;
-    line-height : 0.333em;
+    line-height : 1em;
     position : relative;
     box-sizing : border-box;
     text-align : center;
@@ -217,10 +217,10 @@ corewm-window-switcher > div > img {
     }
 
     #CoreWMApplicationMenu gui-menu-entry div {
+      margin-top: -54px;
       white-space : normal;
       max-height : 30px;
       box-sizing : border-box;
-      margin-top : 0.41666em;
       color : #fff;
     }
 

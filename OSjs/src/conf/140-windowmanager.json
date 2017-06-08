@@ -7,8 +7,8 @@
         "soundTheme": "default",
         "animations": true,
         "fullscreen": true,
-        "desktopMargin": 5,
-        "wallpaper": "osjs:///themes/wallpapers/wallpaper.png",
+        "desktopMargin": 0,
+        "wallpaper": "osjs:///themes/wallpapers/wallpaper2.png",
         "desktopPath": "desktop:///",
         "icon": "osjs-white.png",
         "backgroundColor": "#572a79",
@@ -16,7 +16,7 @@
         "background": "image-fill",
         "windowCornerSnap": 0,
         "windowSnap": 0,
-        "useTouchMenu": false,
+        "useTouchMenu": true,
         "enableIconView": false,
         "enableSwitcher": true,
         "enableHotkeys": true,
@@ -48,7 +48,7 @@
           {
             "options": {
               "position": "top",
-              "ontop": true,
+              "ontop": false,
               "autohide": false,
               "background": "#101010",
               "foreground": "#ffffff",
