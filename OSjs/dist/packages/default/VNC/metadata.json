@@ -1,0 +1,25 @@
+{
+    "className": "ApplicationVNC",
+    "name": "noVNC v0.5",
+    "mime": null,
+    "icon": "apps/preferences-desktop-remote-desktop.png",
+    "category": "network",
+    "preload": [
+        {
+            "type": "javascript",
+            "src": "_app.min.js"
+        },
+        {
+            "src": "scheme.html",
+            "type": "scheme"
+        },
+        {
+            "type": "stylesheet",
+            "src": "_app.min.css"
+        }
+    ],
+    "type": "application",
+    "path": "default/VNC",
+    "build": {},
+    "repo": "default"
+}

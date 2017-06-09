@@ -1,0 +1,31 @@
+{
+    "className": "ApplicationArchiver",
+    "name": "Archiver",
+    "mime": [
+        "application/zip"
+    ],
+    "icon": "apps/system-software-install.png",
+    "category": "utilities",
+    "compability": [
+        "file",
+        "blob"
+    ],
+    "preload": [
+        {
+            "src": "scheme.html",
+            "type": "scheme"
+        },
+        {
+            "type": "javascript",
+            "src": "_app.min.js"
+        },
+        {
+            "type": "stylesheet",
+            "src": "_app.min.css"
+        }
+    ],
+    "type": "application",
+    "path": "default/Archiver",
+    "build": {},
+    "repo": "default"
+}

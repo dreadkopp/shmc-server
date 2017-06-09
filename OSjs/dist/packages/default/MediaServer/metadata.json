@@ -1,0 +1,28 @@
+{
+    "className": "ApplicationMediaServer",
+    "name": "MediaServer",
+    "mime": null,
+    "icon": "categories/applications-system.png",
+    "main": {
+        "node": "server/main.js",
+        "php": "server/main.php"
+    },
+    "preload": [
+        {
+            "type": "javascript",
+            "src": "_app.min.js"
+        },
+        {
+            "type": "stylesheet",
+            "src": "_app.min.css"
+        },
+        {
+            "src": "scheme.html",
+            "type": "scheme"
+        }
+    ],
+    "type": "application",
+    "path": "default/MediaServer",
+    "build": {},
+    "repo": "default"
+}

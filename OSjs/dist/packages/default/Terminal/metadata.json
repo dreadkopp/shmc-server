@@ -1,0 +1,30 @@
+{
+    "className": "ApplicationTerminal",
+    "name": "SSH Terminal",
+    "mime": null,
+    "icon": "apps/utilities-terminal.png",
+    "category": "system",
+    "singular": false,
+    "enabled": false,
+    "config": {
+        "host": "%HOST%:8080"
+    },
+    "preload": [
+        {
+            "src": "scheme.html",
+            "type": "scheme"
+        },
+        {
+            "type": "javascript",
+            "src": "_app.min.js"
+        },
+        {
+            "type": "stylesheet",
+            "src": "_app.min.css"
+        }
+    ],
+    "type": "application",
+    "path": "default/Terminal",
+    "build": {},
+    "repo": "default"
+}

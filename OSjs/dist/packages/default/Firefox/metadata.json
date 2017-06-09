@@ -1,0 +1,16 @@
+{
+    "className": "ApplicationFirefox",
+    "name": "Firefox",
+    "mime": null,
+    "icon": "categories/applications-system.png",
+    "preload": [
+        {
+            "type": "javascript",
+            "src": "_app.min.js"
+        }
+    ],
+    "type": "application",
+    "path": "default/Firefox",
+    "build": {},
+    "repo": "default"
+}

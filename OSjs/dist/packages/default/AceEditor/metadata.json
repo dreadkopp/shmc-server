@@ -1,0 +1,37 @@
+{
+    "className": "ApplicationAceEditor",
+    "name": "AceEditor",
+    "mime": [
+        "^text",
+        "inode\\/x\\-empty",
+        "application\\/x\\-empty",
+        "application\\/x\\-python",
+        "application\\/javascript"
+    ],
+    "icon": "./ace-logo.png",
+    "category": "development",
+    "build": {
+        "scripts": {
+            "before": [
+                "(cd $OSJS_PACKAGE && ./build.sh)"
+            ]
+        }
+    },
+    "preload": [
+        {
+            "type": "javascript",
+            "src": "_app.min.js"
+        },
+        {
+            "type": "stylesheet",
+            "src": "_app.min.css"
+        },
+        {
+            "src": "scheme.html",
+            "type": "scheme"
+        }
+    ],
+    "type": "application",
+    "path": "default/AceEditor",
+    "repo": "default"
+}

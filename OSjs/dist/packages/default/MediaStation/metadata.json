@@ -1,0 +1,16 @@
+{
+    "className": "ApplicationMediaStation",
+    "name": "MediaStation",
+    "mime": null,
+    "icon": "categories/applications-system.png",
+    "preload": [
+        {
+            "type": "javascript",
+            "src": "_app.min.js"
+        }
+    ],
+    "type": "application",
+    "path": "default/MediaStation",
+    "build": {},
+    "repo": "default"
+}

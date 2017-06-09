@@ -1,0 +1,27 @@
+{
+  "build": {
+    "overlays": {
+      "custom": {
+        "javascript": [
+          "src/client/javascript/utils/jquery.js"
+        ]
+      }
+    }
+  },
+  "storage": "database",
+  "server": {
+    "modules": {
+      "storage": {
+        "database": {
+          "driver": "sqlite"
+        }
+      },
+      "auth": {
+        "database": {
+          "driver": "sqlite"
+        }
+      }
+    }
+  },
+  "authentiator": "database"
+}

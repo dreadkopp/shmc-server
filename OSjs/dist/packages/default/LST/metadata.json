@@ -1,0 +1,16 @@
+{
+    "className": "ApplicationLST",
+    "name": "LinuxStreamerTerminal",
+    "mime": null,
+    "icon": "categories/applications-system.png",
+    "preload": [
+        {
+            "type": "javascript",
+            "src": "_app.min.js"
+        }
+    ],
+    "type": "application",
+    "path": "default/LST",
+    "build": {},
+    "repo": "default"
+}
