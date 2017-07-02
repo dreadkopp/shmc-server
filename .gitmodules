@@ -1,0 +1,3 @@
+[submodule "OSjs"]
+	path = OSjs
+	url = https://github.com/dreadkopp/SHMC-OS.js
